@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1CC6321C3F0D2E007823AC /* marker_zoomed_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC62F1C3F0D2E007823AC /* marker_zoomed_empty@2x.png */; };
+		2B1CC6331C3F0D2E007823AC /* marker_zoomed_good@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6301C3F0D2E007823AC /* marker_zoomed_good@2x.png */; };
+		2B1CC6341C3F0D2E007823AC /* marker_zoomed_low@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6311C3F0D2E007823AC /* marker_zoomed_low@2x.png */; };
+		2B1CC6361C3F0E47007823AC /* marker_zoomed_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6351C3F0E47007823AC /* marker_zoomed_empty.png */; };
+		2B1CC63A1C3F121D007823AC /* marker_zoomed_low.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6371C3F121D007823AC /* marker_zoomed_low.png */; };
+		2B1CC63B1C3F121D007823AC /* marker_zoomed_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6381C3F121D007823AC /* marker_zoomed_good.png */; };
+		2B4CE8391C3ABF5B0071784B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8381C3ABF5B0071784B /* main.m */; };
+		2B4CE83C1C3ABF5B0071784B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE83B1C3ABF5B0071784B /* AppDelegate.m */; };
+		2B4CE8451C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8431C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld */; };
+		2B4CE8471C3ABF5B0071784B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CE8461C3ABF5B0071784B /* Assets.xcassets */; };
+		2B4CE8551C3ABF5C0071784B /* CitiBikeAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8541C3ABF5C0071784B /* CitiBikeAppTests.m */; };
+		2B4CE8601C3ABF5C0071784B /* CitiBikeAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE85F1C3ABF5C0071784B /* CitiBikeAppUITests.m */; };
+		2B4CE8791C3AE3FD0071784B /* JSCitiBikeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8771C3AE3FD0071784B /* JSCitiBikeMapViewController.m */; };
+		2B4CE87A1C3AE3FD0071784B /* JSCitiBikeMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CE8781C3AE3FD0071784B /* JSCitiBikeMapViewController.xib */; };
+		2B4CE87D1C3AE65A0071784B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4CE87C1C3AE65A0071784B /* MapKit.framework */; };
+		2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */; };
+		2BEB021B1C3E27B200CD0E6D /* citibike_map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */; };
+		2BEB021C1C3E27B200CD0E6D /* citibike_map_pin_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */; };
+		2BEB021D1C3E27B200CD0E6D /* citibike_map_pin_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */; };
+		2BEB021E1C3E27B200CD0E6D /* citibike_map_pin_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02191C3E27B200CD0E6D /* citibike_map_pin_30.png */; };
+		2BEB021F1C3E27B200CD0E6D /* citibike_map_pin_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB021A1C3E27B200CD0E6D /* citibike_map_pin_0.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B4CE8511C3ABF5C0071784B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4CE82C1C3ABF5B0071784B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4CE8331C3ABF5B0071784B;
+			remoteInfo = CitiBikeApp;
+		};
+		2B4CE85C1C3ABF5C0071784B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B4CE82C1C3ABF5B0071784B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4CE8331C3ABF5B0071784B;
+			remoteInfo = CitiBikeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B1CC62F1C3F0D2E007823AC /* marker_zoomed_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_zoomed_empty@2x.png"; sourceTree = "<group>"; };
+		2B1CC6301C3F0D2E007823AC /* marker_zoomed_good@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_zoomed_good@2x.png"; sourceTree = "<group>"; };
+		2B1CC6311C3F0D2E007823AC /* marker_zoomed_low@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker_zoomed_low@2x.png"; sourceTree = "<group>"; };
+		2B1CC6351C3F0E47007823AC /* marker_zoomed_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_zoomed_empty.png; sourceTree = "<group>"; };
+		2B1CC6371C3F121D007823AC /* marker_zoomed_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_zoomed_low.png; sourceTree = "<group>"; };
+		2B1CC6381C3F121D007823AC /* marker_zoomed_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_zoomed_good.png; sourceTree = "<group>"; };
+		2B4CE8341C3ABF5B0071784B /* CitiBikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4CE8381C3ABF5B0071784B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B4CE83A1C3ABF5B0071784B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B4CE83B1C3ABF5B0071784B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B4CE8441C3ABF5B0071784B /* CitiBikeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CitiBikeApp.xcdatamodel; sourceTree = "<group>"; };
+		2B4CE8461C3ABF5B0071784B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4CE84B1C3ABF5B0071784B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4CE8501C3ABF5C0071784B /* CitiBikeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiBikeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4CE8541C3ABF5C0071784B /* CitiBikeAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiBikeAppTests.m; sourceTree = "<group>"; };
+		2B4CE8561C3ABF5C0071784B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4CE85B1C3ABF5C0071784B /* CitiBikeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiBikeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4CE85F1C3ABF5C0071784B /* CitiBikeAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiBikeAppUITests.m; sourceTree = "<group>"; };
+		2B4CE8611C3ABF5C0071784B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4CE8761C3AE3FD0071784B /* JSCitiBikeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCitiBikeMapViewController.h; sourceTree = "<group>"; };
+		2B4CE8771C3AE3FD0071784B /* JSCitiBikeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCitiBikeMapViewController.m; sourceTree = "<group>"; };
+		2B4CE8781C3AE3FD0071784B /* JSCitiBikeMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSCitiBikeMapViewController.xib; sourceTree = "<group>"; };
+		2B4CE87C1C3AE65A0071784B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2B4CE8821C3B059B0071784B /* JSMapLocationMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSMapLocationMarker.h; path = ../JSMapLocationMarker.h; sourceTree = "<group>"; };
+		2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSMapLocationMarker.m; path = ../JSMapLocationMarker.m; sourceTree = "<group>"; };
+		2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin.png; sourceTree = "<group>"; };
+		2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_70.png; sourceTree = "<group>"; };
+		2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_50.png; sourceTree = "<group>"; };
+		2BEB02191C3E27B200CD0E6D /* citibike_map_pin_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_30.png; sourceTree = "<group>"; };
+		2BEB021A1C3E27B200CD0E6D /* citibike_map_pin_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_0.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B4CE8311C3ABF5B0071784B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4CE87D1C3AE65A0071784B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE84D1C3ABF5C0071784B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE8581C3ABF5C0071784B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4CE82B1C3ABF5B0071784B = {
+			isa = PBXGroup;
+			children = (
+				2B4CE8361C3ABF5B0071784B /* CitiBikeApp */,
+				2B4CE8531C3ABF5C0071784B /* CitiBikeAppTests */,
+				2B4CE85E1C3ABF5C0071784B /* CitiBikeAppUITests */,
+				2B4CE8351C3ABF5B0071784B /* Products */,
+				2B4CE87C1C3AE65A0071784B /* MapKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		2B4CE8351C3ABF5B0071784B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE8341C3ABF5B0071784B /* CitiBikeApp.app */,
+				2B4CE8501C3ABF5C0071784B /* CitiBikeAppTests.xctest */,
+				2B4CE85B1C3ABF5C0071784B /* CitiBikeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B4CE8361C3ABF5B0071784B /* CitiBikeApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE83A1C3ABF5B0071784B /* AppDelegate.h */,
+				2B4CE83B1C3ABF5B0071784B /* AppDelegate.m */,
+				2B4CE8761C3AE3FD0071784B /* JSCitiBikeMapViewController.h */,
+				2B4CE8771C3AE3FD0071784B /* JSCitiBikeMapViewController.m */,
+				2B4CE8821C3B059B0071784B /* JSMapLocationMarker.h */,
+				2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */,
+				2B4CE8461C3ABF5B0071784B /* Assets.xcassets */,
+				2B4CE84B1C3ABF5B0071784B /* Info.plist */,
+				2B4CE8431C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld */,
+				2B4CE8371C3ABF5B0071784B /* Supporting Files */,
+				2B4CE87B1C3AE4720071784B /* Xibs */,
+				2BEB01F71C3DC61A00CD0E6D /* Images */,
+			);
+			path = CitiBikeApp;
+			sourceTree = "<group>";
+		};
+		2B4CE8371C3ABF5B0071784B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE8381C3ABF5B0071784B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B4CE8531C3ABF5C0071784B /* CitiBikeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE8541C3ABF5C0071784B /* CitiBikeAppTests.m */,
+				2B4CE8561C3ABF5C0071784B /* Info.plist */,
+			);
+			path = CitiBikeAppTests;
+			sourceTree = "<group>";
+		};
+		2B4CE85E1C3ABF5C0071784B /* CitiBikeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE85F1C3ABF5C0071784B /* CitiBikeAppUITests.m */,
+				2B4CE8611C3ABF5C0071784B /* Info.plist */,
+			);
+			path = CitiBikeAppUITests;
+			sourceTree = "<group>";
+		};
+		2B4CE87B1C3AE4720071784B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				2B4CE8781C3AE3FD0071784B /* JSCitiBikeMapViewController.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		2BEB01F71C3DC61A00CD0E6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */,
+				2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */,
+				2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */,
+				2BEB02191C3E27B200CD0E6D /* citibike_map_pin_30.png */,
+				2BEB021A1C3E27B200CD0E6D /* citibike_map_pin_0.png */,
+				2B1CC62F1C3F0D2E007823AC /* marker_zoomed_empty@2x.png */,
+				2B1CC6351C3F0E47007823AC /* marker_zoomed_empty.png */,
+				2B1CC6371C3F121D007823AC /* marker_zoomed_low.png */,
+				2B1CC6381C3F121D007823AC /* marker_zoomed_good.png */,
+				2B1CC6301C3F0D2E007823AC /* marker_zoomed_good@2x.png */,
+				2B1CC6311C3F0D2E007823AC /* marker_zoomed_low@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B4CE8331C3ABF5B0071784B /* CitiBikeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4CE8641C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeApp" */;
+			buildPhases = (
+				2B4CE8301C3ABF5B0071784B /* Sources */,
+				2B4CE8311C3ABF5B0071784B /* Frameworks */,
+				2B4CE8321C3ABF5B0071784B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitiBikeApp;
+			productName = CitiBikeApp;
+			productReference = 2B4CE8341C3ABF5B0071784B /* CitiBikeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B4CE84F1C3ABF5C0071784B /* CitiBikeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4CE8671C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeAppTests" */;
+			buildPhases = (
+				2B4CE84C1C3ABF5C0071784B /* Sources */,
+				2B4CE84D1C3ABF5C0071784B /* Frameworks */,
+				2B4CE84E1C3ABF5C0071784B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4CE8521C3ABF5C0071784B /* PBXTargetDependency */,
+			);
+			name = CitiBikeAppTests;
+			productName = CitiBikeAppTests;
+			productReference = 2B4CE8501C3ABF5C0071784B /* CitiBikeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B4CE85A1C3ABF5C0071784B /* CitiBikeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4CE86A1C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeAppUITests" */;
+			buildPhases = (
+				2B4CE8571C3ABF5C0071784B /* Sources */,
+				2B4CE8581C3ABF5C0071784B /* Frameworks */,
+				2B4CE8591C3ABF5C0071784B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B4CE85D1C3ABF5C0071784B /* PBXTargetDependency */,
+			);
+			name = CitiBikeAppUITests;
+			productName = CitiBikeAppUITests;
+			productReference = 2B4CE85B1C3ABF5C0071784B /* CitiBikeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B4CE82C1C3ABF5B0071784B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "James Scherer";
+				TargetAttributes = {
+					2B4CE8331C3ABF5B0071784B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5EN98V4335;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					2B4CE84F1C3ABF5C0071784B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5EN98V4335;
+						TestTargetID = 2B4CE8331C3ABF5B0071784B;
+					};
+					2B4CE85A1C3ABF5C0071784B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5EN98V4335;
+						TestTargetID = 2B4CE8331C3ABF5B0071784B;
+					};
+				};
+			};
+			buildConfigurationList = 2B4CE82F1C3ABF5B0071784B /* Build configuration list for PBXProject "CitiBikeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B4CE82B1C3ABF5B0071784B;
+			productRefGroup = 2B4CE8351C3ABF5B0071784B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B4CE8331C3ABF5B0071784B /* CitiBikeApp */,
+				2B4CE84F1C3ABF5C0071784B /* CitiBikeAppTests */,
+				2B4CE85A1C3ABF5C0071784B /* CitiBikeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B4CE8321C3ABF5B0071784B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1CC6341C3F0D2E007823AC /* marker_zoomed_low@2x.png in Resources */,
+				2B1CC63B1C3F121D007823AC /* marker_zoomed_good.png in Resources */,
+				2B1CC6331C3F0D2E007823AC /* marker_zoomed_good@2x.png in Resources */,
+				2B4CE87A1C3AE3FD0071784B /* JSCitiBikeMapViewController.xib in Resources */,
+				2BEB021E1C3E27B200CD0E6D /* citibike_map_pin_30.png in Resources */,
+				2BEB021D1C3E27B200CD0E6D /* citibike_map_pin_50.png in Resources */,
+				2BEB021B1C3E27B200CD0E6D /* citibike_map_pin.png in Resources */,
+				2B1CC63A1C3F121D007823AC /* marker_zoomed_low.png in Resources */,
+				2B4CE8471C3ABF5B0071784B /* Assets.xcassets in Resources */,
+				2BEB021C1C3E27B200CD0E6D /* citibike_map_pin_70.png in Resources */,
+				2BEB021F1C3E27B200CD0E6D /* citibike_map_pin_0.png in Resources */,
+				2B1CC6321C3F0D2E007823AC /* marker_zoomed_empty@2x.png in Resources */,
+				2B1CC6361C3F0E47007823AC /* marker_zoomed_empty.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE84E1C3ABF5C0071784B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE8591C3ABF5C0071784B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B4CE8301C3ABF5B0071784B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4CE8451C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld in Sources */,
+				2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */,
+				2B4CE83C1C3ABF5B0071784B /* AppDelegate.m in Sources */,
+				2B4CE8791C3AE3FD0071784B /* JSCitiBikeMapViewController.m in Sources */,
+				2B4CE8391C3ABF5B0071784B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE84C1C3ABF5C0071784B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4CE8551C3ABF5C0071784B /* CitiBikeAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B4CE8571C3ABF5C0071784B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4CE8601C3ABF5C0071784B /* CitiBikeAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B4CE8521C3ABF5C0071784B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4CE8331C3ABF5B0071784B /* CitiBikeApp */;
+			targetProxy = 2B4CE8511C3ABF5C0071784B /* PBXContainerItemProxy */;
+		};
+		2B4CE85D1C3ABF5C0071784B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B4CE8331C3ABF5B0071784B /* CitiBikeApp */;
+			targetProxy = 2B4CE85C1C3ABF5C0071784B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B4CE8621C3ABF5C0071784B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B4CE8631C3ABF5C0071784B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B4CE8651C3ABF5C0071784B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitiBikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B4CE8661C3ABF5C0071784B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitiBikeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B4CE8681C3ABF5C0071784B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CitiBikeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiBikeApp.app/CitiBikeApp";
+			};
+			name = Debug;
+		};
+		2B4CE8691C3ABF5C0071784B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CitiBikeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitiBikeApp.app/CitiBikeApp";
+			};
+			name = Release;
+		};
+		2B4CE86B1C3ABF5C0071784B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CitiBikeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CitiBikeApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2B4CE86C1C3ABF5C0071784B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CitiBikeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.CitiBikeAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CitiBikeApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B4CE82F1C3ABF5B0071784B /* Build configuration list for PBXProject "CitiBikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4CE8621C3ABF5C0071784B /* Debug */,
+				2B4CE8631C3ABF5C0071784B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4CE8641C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4CE8651C3ABF5C0071784B /* Debug */,
+				2B4CE8661C3ABF5C0071784B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4CE8671C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4CE8681C3ABF5C0071784B /* Debug */,
+				2B4CE8691C3ABF5C0071784B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B4CE86A1C3ABF5C0071784B /* Build configuration list for PBXNativeTarget "CitiBikeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4CE86B1C3ABF5C0071784B /* Debug */,
+				2B4CE86C1C3ABF5C0071784B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B4CE8431C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B4CE8441C3ABF5B0071784B /* CitiBikeApp.xcdatamodel */,
+			);
+			currentVersion = 2B4CE8441C3ABF5B0071784B /* CitiBikeApp.xcdatamodel */;
+			path = CitiBikeApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B4CE82C1C3ABF5B0071784B /* Project object */;
+}
