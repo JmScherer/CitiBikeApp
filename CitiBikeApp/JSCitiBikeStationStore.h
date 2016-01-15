@@ -16,6 +16,6 @@
 
 +(instancetype)sharedStore;
 
-
++(void)preloadStations;
 
 @end

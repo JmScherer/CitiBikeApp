@@ -7,6 +7,8 @@
 //
 
 #import "JSCitiBikeStationStore.h"
+#import "Reachability.h"
+
 
 @import CoreData;
 
@@ -16,6 +18,8 @@
 @property (nonatomic, strong) NSMutableArray *allAssetTypes;
 @property (nonatomic, strong) NSManagedObjectContext *context;
 @property (nonatomic, strong) NSManagedObjectModel *model;
+
+@property (nonatomic) Reachability *hostReachable;
 
 @end
 
@@ -93,6 +97,19 @@
 }
 
 -(void)saveAllStations {
+    
+    
+    
+}
+
+-(void)preloadStations {
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"CitiBikeStations" ofType:@"plist"];
+    
+    NSError *error;
+    
+    NSArray *stations = [NSPropertyListSerialization propertyListWithData:[NSData dataWithContentsOfFile:path] options:kCFPropertyListImmutable format:nil error:&error];
+    
     
     
     

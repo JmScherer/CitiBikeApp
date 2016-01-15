@@ -13,7 +13,6 @@
 		2B1CC6361C3F0E47007823AC /* marker_zoomed_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6351C3F0E47007823AC /* marker_zoomed_empty.png */; };
 		2B1CC63A1C3F121D007823AC /* marker_zoomed_low.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6371C3F121D007823AC /* marker_zoomed_low.png */; };
 		2B1CC63B1C3F121D007823AC /* marker_zoomed_good.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1CC6381C3F121D007823AC /* marker_zoomed_good.png */; };
-		2B4CE8391C3ABF5B0071784B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8381C3ABF5B0071784B /* main.m */; };
 		2B4CE83C1C3ABF5B0071784B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE83B1C3ABF5B0071784B /* AppDelegate.m */; };
 		2B4CE8451C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8431C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld */; };
 		2B4CE8471C3ABF5B0071784B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CE8461C3ABF5B0071784B /* Assets.xcassets */; };
@@ -25,6 +24,9 @@
 		2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */; };
 		2BC84CEC1C459F6600FC5F37 /* JSCitiBikeStationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC84CEB1C459F6600FC5F37 /* JSCitiBikeStationStore.m */; };
 		2BC84CEF1C459F8000FC5F37 /* JSCitiBikeStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC84CEE1C459F8000FC5F37 /* JSCitiBikeStation.m */; };
+		2BD94F4D1C49A0B400767459 /* CitiBikeStations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2BD94F4C1C49A0B400767459 /* CitiBikeStations.plist */; };
+		2BD94F501C49A1E300767459 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD94F4F1C49A1E300767459 /* Reachability.m */; };
+		2BD94F521C49A33000767459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD94F511C49A33000767459 /* main.m */; };
 		2BEB021B1C3E27B200CD0E6D /* citibike_map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */; };
 		2BEB021C1C3E27B200CD0E6D /* citibike_map_pin_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */; };
 		2BEB021D1C3E27B200CD0E6D /* citibike_map_pin_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */; };
@@ -57,7 +59,6 @@
 		2B1CC6371C3F121D007823AC /* marker_zoomed_low.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_zoomed_low.png; sourceTree = "<group>"; };
 		2B1CC6381C3F121D007823AC /* marker_zoomed_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker_zoomed_good.png; sourceTree = "<group>"; };
 		2B4CE8341C3ABF5B0071784B /* CitiBikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4CE8381C3ABF5B0071784B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B4CE83A1C3ABF5B0071784B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B4CE83B1C3ABF5B0071784B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B4CE8441C3ABF5B0071784B /* CitiBikeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CitiBikeApp.xcdatamodel; sourceTree = "<group>"; };
@@ -79,6 +80,10 @@
 		2BC84CEB1C459F6600FC5F37 /* JSCitiBikeStationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCitiBikeStationStore.m; sourceTree = "<group>"; };
 		2BC84CED1C459F8000FC5F37 /* JSCitiBikeStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCitiBikeStation.h; sourceTree = "<group>"; };
 		2BC84CEE1C459F8000FC5F37 /* JSCitiBikeStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCitiBikeStation.m; sourceTree = "<group>"; };
+		2BD94F4C1C49A0B400767459 /* CitiBikeStations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CitiBikeStations.plist; sourceTree = "<group>"; };
+		2BD94F4E1C49A1E300767459 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2BD94F4F1C49A1E300767459 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2BD94F511C49A33000767459 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin.png; sourceTree = "<group>"; };
 		2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_70.png; sourceTree = "<group>"; };
 		2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_50.png; sourceTree = "<group>"; };
@@ -159,7 +164,10 @@
 		2B4CE8371C3ABF5B0071784B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2B4CE8381C3ABF5B0071784B /* main.m */,
+				2BD94F511C49A33000767459 /* main.m */,
+				2BD94F4E1C49A1E300767459 /* Reachability.h */,
+				2BD94F4F1C49A1E300767459 /* Reachability.m */,
+				2BD94F4C1C49A0B400767459 /* CitiBikeStations.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -328,6 +336,7 @@
 				2BEB021B1C3E27B200CD0E6D /* citibike_map_pin.png in Resources */,
 				2B1CC63A1C3F121D007823AC /* marker_zoomed_low.png in Resources */,
 				2B4CE8471C3ABF5B0071784B /* Assets.xcassets in Resources */,
+				2BD94F4D1C49A0B400767459 /* CitiBikeStations.plist in Resources */,
 				2BEB021C1C3E27B200CD0E6D /* citibike_map_pin_70.png in Resources */,
 				2BEB021F1C3E27B200CD0E6D /* citibike_map_pin_0.png in Resources */,
 				2B1CC6321C3F0D2E007823AC /* marker_zoomed_empty@2x.png in Resources */,
@@ -359,10 +368,11 @@
 				2B4CE8451C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld in Sources */,
 				2BC84CEC1C459F6600FC5F37 /* JSCitiBikeStationStore.m in Sources */,
 				2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */,
+				2BD94F501C49A1E300767459 /* Reachability.m in Sources */,
 				2B4CE83C1C3ABF5B0071784B /* AppDelegate.m in Sources */,
 				2B4CE8791C3AE3FD0071784B /* JSCitiBikeMapViewController.m in Sources */,
+				2BD94F521C49A33000767459 /* main.m in Sources */,
 				2BC84CEF1C459F8000FC5F37 /* JSCitiBikeStation.m in Sources */,
-				2B4CE8391C3ABF5B0071784B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

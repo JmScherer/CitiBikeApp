@@ -19,6 +19,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if(![defaults objectForKey:@"firstRun"]){
+        [defaults setObject:[NSDate date] forKey:@"firstRun"];
+        
+        NSLog(@"This is the first run of the application");
+        
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     self.window.backgroundColor = [UIColor whiteColor];

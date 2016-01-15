@@ -6,8 +6,6 @@
 //  Copyright © 2016 James Scherer. All rights reserved.
 //
 
-
-
 #import "JSCitiBikeMapViewController.h"
 #import "JSMapLocationMarker.h"
 
@@ -80,7 +78,6 @@
     
     [self.mapView setRegion:region animated:YES];
     
-    
 }
 
 -(void)fetchFeed {
@@ -117,7 +114,6 @@
     {
         
         JSMapLocationMarker *tempMarker = annotation;
-        
         
         annotationView = [JSMapLocationMarker createViewAnnotationForMapView:self.mapView annotation:annotation];
         
@@ -165,7 +161,6 @@
                 annotationView.image = [UIImage imageNamed:@"marker_zoomed_empty.png"];
             }
         }
-        
         
         UIButton *detailButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
         
@@ -283,7 +278,7 @@
 
 -(void)removeAllAnnotations {
     
-    id userAnnotation = self.mapView.userLocation;
+    //id userAnnotation = self.mapView.userLocation;
     
     [self.mapView removeAnnotations:self.mapView.annotations];
     
