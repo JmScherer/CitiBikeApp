@@ -23,6 +23,8 @@
 		2B4CE87A1C3AE3FD0071784B /* JSCitiBikeMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B4CE8781C3AE3FD0071784B /* JSCitiBikeMapViewController.xib */; };
 		2B4CE87D1C3AE65A0071784B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4CE87C1C3AE65A0071784B /* MapKit.framework */; };
 		2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */; };
+		2BC84CEC1C459F6600FC5F37 /* JSCitiBikeStationStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC84CEB1C459F6600FC5F37 /* JSCitiBikeStationStore.m */; };
+		2BC84CEF1C459F8000FC5F37 /* JSCitiBikeStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC84CEE1C459F8000FC5F37 /* JSCitiBikeStation.m */; };
 		2BEB021B1C3E27B200CD0E6D /* citibike_map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */; };
 		2BEB021C1C3E27B200CD0E6D /* citibike_map_pin_70.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */; };
 		2BEB021D1C3E27B200CD0E6D /* citibike_map_pin_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */; };
@@ -73,6 +75,10 @@
 		2B4CE87C1C3AE65A0071784B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2B4CE8821C3B059B0071784B /* JSMapLocationMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSMapLocationMarker.h; path = ../JSMapLocationMarker.h; sourceTree = "<group>"; };
 		2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSMapLocationMarker.m; path = ../JSMapLocationMarker.m; sourceTree = "<group>"; };
+		2BC84CEA1C459F6600FC5F37 /* JSCitiBikeStationStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCitiBikeStationStore.h; sourceTree = "<group>"; };
+		2BC84CEB1C459F6600FC5F37 /* JSCitiBikeStationStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCitiBikeStationStore.m; sourceTree = "<group>"; };
+		2BC84CED1C459F8000FC5F37 /* JSCitiBikeStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCitiBikeStation.h; sourceTree = "<group>"; };
+		2BC84CEE1C459F8000FC5F37 /* JSCitiBikeStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCitiBikeStation.m; sourceTree = "<group>"; };
 		2BEB02161C3E27B200CD0E6D /* citibike_map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin.png; sourceTree = "<group>"; };
 		2BEB02171C3E27B200CD0E6D /* citibike_map_pin_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_70.png; sourceTree = "<group>"; };
 		2BEB02181C3E27B200CD0E6D /* citibike_map_pin_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = citibike_map_pin_50.png; sourceTree = "<group>"; };
@@ -135,6 +141,10 @@
 				2B4CE8761C3AE3FD0071784B /* JSCitiBikeMapViewController.h */,
 				2B4CE8771C3AE3FD0071784B /* JSCitiBikeMapViewController.m */,
 				2B4CE8821C3B059B0071784B /* JSMapLocationMarker.h */,
+				2BC84CEA1C459F6600FC5F37 /* JSCitiBikeStationStore.h */,
+				2BC84CEB1C459F6600FC5F37 /* JSCitiBikeStationStore.m */,
+				2BC84CED1C459F8000FC5F37 /* JSCitiBikeStation.h */,
+				2BC84CEE1C459F8000FC5F37 /* JSCitiBikeStation.m */,
 				2B4CE8831C3B059B0071784B /* JSMapLocationMarker.m */,
 				2B4CE8461C3ABF5B0071784B /* Assets.xcassets */,
 				2B4CE84B1C3ABF5B0071784B /* Info.plist */,
@@ -347,9 +357,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B4CE8451C3ABF5B0071784B /* CitiBikeApp.xcdatamodeld in Sources */,
+				2BC84CEC1C459F6600FC5F37 /* JSCitiBikeStationStore.m in Sources */,
 				2B4CE8841C3B059B0071784B /* JSMapLocationMarker.m in Sources */,
 				2B4CE83C1C3ABF5B0071784B /* AppDelegate.m in Sources */,
 				2B4CE8791C3AE3FD0071784B /* JSCitiBikeMapViewController.m in Sources */,
+				2BC84CEF1C459F8000FC5F37 /* JSCitiBikeStation.m in Sources */,
 				2B4CE8391C3ABF5B0071784B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -193,17 +193,21 @@
 
 -(void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
     
+    int tempZoom = [self calculateZoomLevel:mapView];
     
     NSLog(@"Zoom Level: %d", [self calculateZoomLevel:mapView]);
     
-    if ([self calculateZoomLevel:mapView] != self.mapZoomLevel) {
-        [self removeAllAnnotations];
-        [self addMarkers];
+    if (tempZoom != self.mapZoomLevel) {
+        
+        if((tempZoom >= 16 && self.mapZoomLevel < 16) || (tempZoom < 16 && self.mapZoomLevel >= 16)) {
+            [self removeAllAnnotations];
+            [self addMarkers];
+        }
     }
     else
         NSLog(@"Nothing Changed");
     
-    NSLog(@"Map Delta: %f, Long Deklta: %f", self.mapView.region.span.longitudeDelta, self.mapView.region.span.longitudeDelta);
+    NSLog(@"Map Delta: %f, Long Delta: %f", self.mapView.region.span.longitudeDelta, self.mapView.region.span.longitudeDelta);
 
     
     self.mapZoomLevel = [self calculateZoomLevel:mapView];
@@ -214,7 +218,7 @@
     
     NSMutableArray *annotations = [[NSMutableArray alloc] init];
     
-    NSLog(@"%@", self.stations[1]);
+   // NSLog(@"%@", self.stations[1]);
     
     for (int i = 0; i < self.stations.count; ++i) {
         

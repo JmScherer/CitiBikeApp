@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JSCitiBikeMapViewController">
@@ -18,12 +19,44 @@
             <subviews>
                 <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Shp-Dr-g9X">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Shp-Dr-g9X" secondAttribute="height" multiplier="3:4" id="dxc-nA-ggG"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="dxc-nA-ggG"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular">
+                        <mask key="constraints">
+                            <include reference="dxc-nA-ggG"/>
+                        </mask>
+                    </variation>
                     <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
+                        <rect key="frame" x="33" y="18" width="335" height="671"/>
                     </variation>
                 </mapView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Shp-Dr-g9X" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5A0-zx-wur"/>
+                <constraint firstItem="Shp-Dr-g9X" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eoM-YF-owv"/>
+                <constraint firstAttribute="bottom" secondItem="Shp-Dr-g9X" secondAttribute="bottom" id="rp4-Pg-03M"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="5A0-zx-wur"/>
+                    <exclude reference="eoM-YF-owv"/>
+                    <exclude reference="rp4-Pg-03M"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="constraints">
+                    <include reference="5A0-zx-wur"/>
+                    <include reference="eoM-YF-owv"/>
+                    <include reference="rp4-Pg-03M"/>
+                </mask>
+            </variation>
             <point key="canvasLocation" x="218" y="482"/>
         </view>
     </objects>
