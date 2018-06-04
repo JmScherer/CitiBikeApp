@@ -4,6 +4,6 @@
 
 ## Preview Images
 
-![alt text](CitiBikeApp/CitiBike_Preview_#1.png "Application Screenshot #1")
+![alt text](CitiBike_Preview_#1.png "Application Screenshot #1")
 
 ![alt text](https://github.com/JmScherer/CitiBikeApp/CitiBike_Preview_%232.png "Application Screenshot #2")
